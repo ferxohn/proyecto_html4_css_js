@@ -7,6 +7,6 @@ Alumnos:
 * Fernando Gómez Perera - 160300129
 * Victoria Andrea Garza Romero - 160300110
 
-## Contenido
+### Contenido
 
 Página web de ejemplo para ilustrar los conceptos vistos durante el primer parcial de la clase.
