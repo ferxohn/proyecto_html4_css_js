@@ -2,10 +2,10 @@
 
 ## Programación Web - Universidad del Caribe (Primavera 2018)
 
-Alumnos:
+* Alumnos:
 
-* Fernando Gómez Perera - 160300129
-* Victoria Andrea Garza Romero - 160300110
+  * Fernando Gómez Perera - 160300129
+  * Victoria Andrea Garza Romero - 160300110
 
 ### Contenido
 
