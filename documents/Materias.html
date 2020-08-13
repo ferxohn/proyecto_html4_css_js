@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="description" content="Esta es una pagina sobre nuestras materias">
+    <meta name="keyword" content="horario, materias, hora, lunes, martes, miercoles, jueves, viernes">
+    <meta name="author" content="Fernando Gomez Perera, Victoria Andrea Garza Romero">
+    <title>Materias</title>
+    <script src="../js/metodos.js"></script>
+    <link type="text/css" rel="stylesheet" href="../styles/estilos_materias.css" />
+</head>
+<body>
+    <!-- Área de encabezado de enlaces. -->
+    <div id="enlaces">
+        <div id="opcion">
+            <a href="../index.html" onclick="alerta('la página de inicio')"><p class="enlace">Inicio</p></a>
+        </div>
+        <div id="opcion">
+            <a href="../documents/quiensoy_victoria.html" onclick="alerta('la página de Victoria Garza')"><p class="enlace">¿Quién soy? Victoria Garza</p></a>
+        </div>
+        <div id="opcion">
+            <a href="../documents/quiensoy_fernando.html" onclick="alerta('la página de Fernando Gómez')"><p class="enlace">¿Quién soy? Fernando Gómez</p></a>
+        </div>
+        <div id="opcion">
+            <a href="../documents/materias.html" onclick="alerta('la página de materias')"><p class="enlace">Materias</p></a>
+        </div>
+        <div id="opcion">
+            <a href="../documents/galeria_imagenes.html" onclick="alerta('la galería de imágenes')"><p class="enlace">Galería de imágenes</p></a>
+        </div>
+        <div id="opcion">
+            <a href="../documents/contactanos.html" onclick="alerta('la página de contacto')"><p class="enlace">Contáctanos</p></a>
+        </div>
+    </div>
+    <h1>Nuestras materias</h1>
+    <div id="seccion">
+        <div id="cuadro_materias">
+            <!-- Materias de Fernando. -->
+            <h2>Materias: Fernando Gómez</h2>
+            <table class="tabla">
+                <tr>
+                    <th>Asignatura</th>
+                    <th>Lunes</th>
+                    <th>Martes</th>
+                    <th>Miércoles</th>
+                    <th>Jueves</th>
+                    <th>Viernes</th>
+                </tr>
+                <tr>
+                    <td>Identidad y Cultura</td>
+                    <td>16:00 - 18:00</td>
+                    <td></td>
+                    <td>21:00 - 22:00</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Interconectividad en Redes</td>
+                    <td></td>
+                    <td>18:00 - 20:00</td>
+                    <td></td>
+                    <td>18:00 - 20:00 </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Programación Web</td>
+                    <td>20:00 - 22:00</td>
+                    <td></td>
+                    <td>20:00 - 21:00</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Bases de Datos</td>
+                    <td></td>
+                    <td>16:00 - 18:00</td>
+                    <td></td>
+                    <td>16:00 - 18:00</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Ecuaciones Diferenciales</td>
+                    <td>18:00 - 20:00</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>19:00 - 20:00</td>
+                </tr>
+                <tr>
+                    <td>Geometría Computacional</td>
+                    <td></td>
+                    <td></td>
+                    <td>16:00 - 18:00</td>
+                    <td></td>
+                    <td>16:00 - 17:00</td>
+                </tr>
+            </table>
+            <button class="descarga" type="button" onclick="descarga('../documents/xlsx/horario_fernando.xlsx')">Descarga</button>
+        </div>
+        <div id="cuadro_imagen">
+            <img src="../images/materias_fernando.jpg" alt="Fernando Gómez Perera">
+        </div>
+    </div>
+    <div id="seccion">
+        <div id="cuadro_materias">
+            <!-- Materias de Victoria. -->
+            <h2>Materias: Victoria Garza</h2>
+            <table class="tabla">
+                <tr>
+                    <th>Asignatura</th>
+                    <th>Lunes</th>
+                    <th>Martes</th>
+                    <th>Miércoles</th>
+                    <th>Jueves</th>
+                    <th>Viernes</th>
+                </tr>
+                <tr>
+                    <td>Identidad y Cultura</td>
+                    <td>16:00 - 18:00</td>
+                    <td></td>
+                    <td>21:00 - 22:00</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Interconectividad en Redes</td>
+                    <td></td>
+                    <td>18:00 - 20:00</td>
+                    <td></td>
+                    <td>18:00 - 20:00 </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Programación Web</td>
+                    <td>20:00 - 22:00</td>
+                    <td></td>
+                    <td>20:00 - 21:00</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Cálculo Integral</td>
+                    <td></td>
+                    <td>16:00 - 17:00</td>
+                    <td></td>
+                    <td>16:00 - 18:00</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Matemáticas Discretas</td>
+                    <td></td>
+                    <td>17:00 - 18:00</td>
+                    <td></td>
+                    <td></td>
+                    <td>17:00 - 19:00</td>
+                </tr>
+            </table>
+            <button class="descarga" type="button" onclick="descarga('../documents/xlsx/horario_victoria.xlsx')">Descarga</button>
+        </div>
+        <div id="cuadro_imagen">
+            <img src="../images/materias_victoria.jpg" alt="Victoria Andrea Garza Romero">
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,75 @@
+/* Etiquetas nativas */
+body {
+	background:#e9cfcf;
+	text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+
+p {
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+
+/* Clases */
+p.enlace {
+    color: #0927ac;
+    font-size: 15px;
+}
+
+.centrado {
+	width: 50%;
+	margin:55px 300px;
+}
+
+/* Divisiones */
+#enlaces {
+    width: 1220px;
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#opcion {
+    float: left;
+    width: 203px;
+    text-align: center;
+}
+
+#Encabezado {
+	text-align:center;
+	font-style: italic;
+}
+
+#caja1 {
+	padding: 1em;
+	background-color: #8ce1ff;
+	color: #fff;
+	float:left;
+	height:400px;
+	width:200px;
+	margin:10px;
+}
+
+#caja2 {
+	padding: 1em;
+	background-color: #8bdcdd;
+	color: #fff;
+	float:left;
+	height:400px;
+	width:200px;
+	margin: 10px;	
+}
+
+#caja3 {
+	padding: 1em;
+	background-color: #8fc1dc;
+	color: #fff;
+	float:left;
+	height:400px;
+	width:200px;
+	margin: 10px;
+}

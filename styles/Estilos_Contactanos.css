@@ -1,0 +1,108 @@
+/* Etiquetas nativas */
+body {
+    background-color: #aca952;
+}
+
+h1 {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+
+h2 {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-size: 30px;
+}
+
+p {
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+
+img {
+    width: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Clases */
+p.inicio {
+    text-align: center;
+    font-size: 18px;
+    font-style: italic;
+}
+
+p.enlace {
+    color: #0927ac;
+    font-size: 15px;
+}
+
+iframe.mapa {
+    width: 400px;
+    height: 250px;
+    border: 0;
+}
+input.nombre {
+    width: 200px;
+}
+
+input.correo {
+    width: 210px;
+}
+
+button.facebook {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
+
+/* Divisiones */
+#enlaces {
+    width: 1220px;
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#opcion {
+    float: left;
+    width: 203px;
+    text-align: center;
+}
+
+#texto {
+    width: 1220px;
+    height: 250px;
+}
+
+#cuadro_texto_top {
+    float: left;
+    width: 386px;
+    height: 250px;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+#cuadro_texto_bottom {
+    float: left;
+    width: 590px;
+    height: 400px;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+#mapa {
+    width: 400px;
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+#comentarios {
+    width: 382px;
+    height: 120px;
+}

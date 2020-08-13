@@ -1,0 +1,116 @@
+/* Etiquetas nativas */
+body {
+    background-color: #badffb;
+}
+
+h1 {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+
+h2 {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-size: 30px;
+}
+
+p {
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+
+img {
+    image-orientation: from-image;
+}
+
+tr, td {
+    border: 1px solid black;
+}
+
+/* Clases */
+p.inicio {
+    text-align: center;
+    font-size: 18px;
+}
+
+p.enlace {
+    color: #0927ac;
+    font-size: 15px;
+}
+
+button.descarga {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
+
+button.central {
+    margin-bottom: 20px;
+}
+
+img.vertical {
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+img.horizontal {
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+img.central {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Divisiones */
+#enlaces {
+    width: 1220px;
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#opcion {
+    float: left;
+    width: 203px;
+    text-align: center;
+}
+
+#imagenes {
+    float: left;
+    width: 1220px;
+    height: 1400px;
+}
+
+#galeria_fernando {
+    float: left;
+    width: 600px;
+    height: 1400px;
+}
+
+#galeria_victoria {
+    float: right;
+    width: 600px;
+    height: 1400px;
+}
+
+#imagen_izq {
+    float: left;
+    width: 300px;
+    height: 350px;
+}
+
+#imagen_der {
+    float: right;
+    width: 300px;
+    height: 350px;
+}

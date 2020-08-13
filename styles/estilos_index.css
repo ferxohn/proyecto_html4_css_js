@@ -1,0 +1,102 @@
+/* Etiquetas nativas */
+body {
+    background-color: #badffb;
+}
+
+h1 {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+
+h2 {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-size: 30px;
+}
+
+p {
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+}
+
+img {
+    width: 700px;
+    height: 476px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Clases */
+p.inicio {
+    text-align: justify;
+    font-size: 18px;
+}
+
+p.enlace {
+    color: #0927ac;
+    font-size: 15px;
+}
+
+input.correo {
+    width: 160px;
+}
+
+input.password {
+    width: 140px;
+}
+
+button.click {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
+
+/* Divisiones */
+#enlaces {
+    width: 1220px;
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#opcion {
+    float: left;
+    width: 203px;
+    text-align: center;
+}
+
+#texto {
+    width: 1220px;
+    height: 250px;
+}
+
+#cuadro_texto {
+    float: left;
+    width: 386px;
+    height: 250px;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+#fecha {
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+#hora {
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+#numeroaleatorio {
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+}

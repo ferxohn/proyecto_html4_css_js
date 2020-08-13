@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="description" content="Esta es la pagina principal donde se habla de Fernando Gomez y Victoria Garza">
+    <meta name="keyword" content="nosotros, equipo, materias, amistad, hora, fecha">
+    <meta name="author" content="Fernando Gomez Perera, Victoria Andrea Garza Romero">
+    <title>Nuestra página: Victoria y Fernando</title>
+    <script src="js/metodos.js"></script> <!-- Se enlaza el archivo js con métodos de Javascript. -->
+    <link type="text/css" rel="stylesheet" href="styles/estilos_index.css" />
+</head>
+<body>
+    <!-- Área de encabezado de enlaces. -->
+    <div id="enlaces">
+        <div id="opcion">
+            <a href="index.html" onclick="alerta('la página de inicio')"><p class="enlace">Inicio</p></a>
+        </div>
+        <div id="opcion">
+            <a href="documents/quiensoy_victoria.html" onclick="alerta('la página de Victoria Garza')"><p class="enlace">¿Quién soy? Victoria Garza</p></a>
+        </div>
+        <div id="opcion">
+            <a href="documents/quiensoy_fernando.html" onclick="alerta('la página de Fernando Gómez')"><p class="enlace">¿Quién soy? Fernando Gómez</p></a>
+        </div>
+        <div id="opcion">
+            <a href="documents/materias.html" onclick="alerta('la página de materias')"><p class="enlace">Materias</p></a>
+        </div>
+        <div id="opcion">
+            <a href="documents/galeria_imagenes.html" onclick="alerta('la galería de imágenes')"><p class="enlace">Galería de imágenes</p></a>
+        </div>
+        <div id="opcion">
+            <a href="documents/contactanos.html" onclick="alerta('la página de contacto')"><p class="enlace">Contáctanos</p></a>
+        </div>
+    </div>
+    <h1>Nosotros</h1>
+    <img src="images/index.jpeg" alt="Victoria Garza y Fernando Gómez">
+    <!-- Área de texto. -->
+    <div id="texto">
+        <div id="cuadro_texto">
+            <h2>Su amistad</h2>
+            <p class="inicio">Fernando Gómez y Victoria Garza son amigos desde hace año y medio cuando juntaron sus salones por reducción de
+                estudiantes. En una ocasión, Fernando invitó a Victoria a hacer una tarea que tenían en equipo
+                y de esa forma surgió su amistad.
+            </p>
+        </div>
+        <div id="cuadro_texto">
+            <h2>Materias que han tomado juntos</h2>
+            <p class="inicio">Han tomado muchas materias juntos, por ejemplo: Algoritmos y Estructuras de Datos, Matemáticas Discretas,
+                Cálculo Diferencial, Diseño de Patrones para Datos Estructurados, Programación Orientada a Objetos,
+                Organización y Diseño de Computadoras, entre otras.
+            </p>
+        </div>
+        <div id="cuadro_texto">
+            <h2>¿Por qué decidieron hacerlo en equipo?</h2>
+            <p class="inicio">La mayoría de las veces que dejan tarea en equipo deciden estar juntos, ya que Fernando y Victoria saben como
+                trabajar juntos, y si tienen una duda siempre se ayudan; es por eso y mucho más que decidieron ser equipo.
+                Además, es más sencillo hacerlo entre dos que hacerlo cada uno por separado, asi no tienen que llenarse de tanta
+                información.
+            </p>
+        </div>
+    </div>
+    <!-- Área de métodos Javascript -->
+    <div id="texto">
+        <div id="cuadro_texto">
+            <h2>Fecha</h2>
+            <!-- Se crea un objeto date de Javascript para mostrar la fecha en la que se despliega la página. -->
+            <div id="fecha"></div>
+        </div>
+        <div id="cuadro_texto">
+            <h2>Hora</h2>
+            <!-- Se crea un objeto date de Javascript para mostrar la hora en la que se despliega la página. -->
+            <div id="hora"></div>
+        </div>
+        <div id="cuadro_texto">
+            <h2>Iniciar sesión</h2>
+            <!-- Se invoca a la función que permite realizar un login en la página. -->
+            <form name="Login" method="post">
+                <p>
+                    <label for="correo">Correo</label>
+                    <input type="text" class="correo"placeholder="Ingresa tu correo" name="correo" required>
+                </p>
+                <p>
+                    <label for="password">Password</label>
+                    <input type="password" class="password" placeholder="Ingresa tu password" name="password" required><br>
+                </p>
+                <input type="submit" onclick="login(correo, password)" value="Enviar">
+                <input type="reset" name="Borrar">
+            </form>
+        </div>
+    </div>
+    <div id="texto">
+        <div id="cuadro_texto">
+            <p>
+                <h2>Genera un número aleatorio</h2>
+                <!-- Se invoca a la función que permite contar la cantidad de clicks que se hacen sobre un botón. -->
+                <button class="click" type="button" onclick="numero_rand()">Click</button>
+                <div id="numeroaleatorio"></div>
+            </p>
+        </div>
+    </div>
+</body>
+</html>

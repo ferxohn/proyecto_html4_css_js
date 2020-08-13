@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es"> <!-- El atributo lang puede ser usado para declarar el lenguaje de una página Web. Esto es para ayudar en los motores de búsqueda y los navegadores. Fuente: https://www.w3schools.com/tags/ref_language_codes.asp -->
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="description" content="Esta es una pagina sobre Fernando Gomez">
+    <meta name="keyword" content="materia, deportes, musica, carrera, educacion">
+    <meta name="author" content="Fernando Gomez Perera">
+    <title>¿Quién soy? Fernando Gómez</title>
+    <script src="../js/metodos.js"></script> <!-- Se enlaza el archivo js con métodos de Javascript. -->
+    <link type="text/css" rel="stylesheet" href="../styles/estilos_quiensoyfernando.css" /> <!-- Archivo de estilos en CSS -->
+</head>
+<body>
+    <!-- Área de encabezado de enlaces. -->
+    <div id="enlaces">
+        <div id="opcion">
+            <a href="../index.html" onclick="alerta('la página de inicio')"><p class="enlace">Inicio</p></a>
+        </div>
+        <div id="opcion">
+            <a href="../documents/quiensoy_victoria.html" onclick="alerta('la página de Victoria Garza')"><p class="enlace">¿Quién soy? Victoria Garza</p></a>
+        </div>
+        <div id="opcion">
+            <a href="../documents/quiensoy_fernando.html" onclick="alerta('la página de Fernando Gómez')"><p class="enlace">¿Quién soy? Fernando Gómez</p></a>
+        </div>
+        <div id="opcion">
+            <a href="../documents/materias.html" onclick="alerta('la página de materias')"><p class="enlace">Materias</p></a>
+        </div>
+        <div id="opcion">
+            <a href="../documents/galeria_imagenes.html" onclick="alerta('la galería de imágenes')"><p class="enlace">Galería de imágenes</p></a>
+        </div>
+        <div id="opcion">
+            <a href="../documents/contactanos.html" onclick="alerta('la página de contacto')"><p class="enlace">Contáctanos</p></a>
+        </div>
+    </div>
+    <h1>¿Quién soy? Fernando Gómez</h1>
+    <!-- Área de texto. -->
+    <div id="texto">
+        <div id="cuadro_texto_top">
+            <h2>Educación</h2>
+            <p class="inicio">Estudié la preparatoria en la <a href="http://www.unid.edu.mx/" class="enlace" onclick="alerta('la página de la UNID sede Cancún')">UNID sede Cancún</a>.
+                Además, estudié 3 semestres de Ingeniería en Mecatrónica en la <a href="http://www.ingenieria.uady.mx/" class="enlace" onclick="alerta('la página de la FIUADY')">Facultad de Ingeniería de la UADY</a>.
+            </p>
+        </div>
+        <div id="cuadro_texto_top">
+            <a href="../images/quiensoy_fernando.jpg" target="_blank"> <!-- El atributo target especifica donde se abrirá un documento enlazado. El valor blank indica que se abrirá en una nueva ventana o pestaña. Fuente: https://www.w3schools.com/tags/att_a_target.asp -->
+                <img src="../images/quiensoy_fernando.jpg" alt="Fernando Gómez Perera" /> <!-- El atributo alt indica el texto alternativo que se mostrará cuando una imagen no puede ser desplegada. Fuente: https://www.w3schools.com/TAGS/att_img_alt.asp -->
+            </a>
+        </div>
+        <div id="cuadro_texto_top">
+            <h2>Deportes y música</h2>
+            <p class="inicio">No soy fanático de los deportes, pero si pudiera definir uno como mi favorito sería el futbol americano de la
+                <a href="https://www.nfl.com/" class="enlace" onclick="alerta('la página de la NFL')">NFL</a>. Me gusta tocar la guitarra,
+                aunque hace tiempo que no toco, y mi música favorita es el rock alternativo. Mi banda favorita es <a href="http://interpolnyc.com/news/" class="enlace" onclick="alerta('la página de Interpol')">Interpol</a>.
+            </p>
+        </div>
+    </div>
+    <div id="texto">
+        <div id="cuadro_texto_bottom">
+            <h2>Carrera</h2>
+            <p class="inicio">El paso por Ingeniería en Datos e Inteligencia Organizacional no ha sido fácil. Antes de comenzar, tuve que enfrentarme a no estudiar
+                durante 1 año, y todo lo que eso implicó. Después, a la incertidumbre de entrar a la universidad de nuevo. Y cuando logré entrar,
+                a enfrentarme a la complejidad y dificultades de la carrera. Aún así, la carrera me ha gustado mucho, me han apasionado los temas y
+                las materias que hemos visto, y aunque la universidad y los profesores en más de una ocasión dejan mucho que desear, me siento feliz
+                de haber logrado llegar hasta este momento con esfuerzo y dedicación.
+            </p>
+        </div>
+        <div id="cuadro_texto_bottom">
+            <h2>Materia favorita</h2>
+            <p class="inicio centrado">Ninguna hasta ahora.</p>
+        </div>
+    </div>
+</body>
+</html>

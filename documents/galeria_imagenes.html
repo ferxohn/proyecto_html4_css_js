@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="description" content="Esta es una pagina con imagenes de nuestros viajes">
+    <meta name="keyword" content="Paris, Sevilla, Ciudad de Mexico, Madrid, Tokio, Venecia, Roma, Berlin, Manchester, galeria, imagenes">
+    <meta name="author" content="Victoria Andrea Garza Romero, Fernando Gomez Perera">
+    <title>Galería de Imágenes</title>
+    <script src="../js/metodos.js"></script> <!-- Se enlaza el archivo js con métodos de Javascript. -->
+    <link type="text/css" rel="stylesheet" href="../styles/estilos_galeriaimagenes.css" /> <!-- Se enlaza el archivo css de estilos. -->
+</head>
+<body>
+    <!-- Área de encabezado de enlaces. -->
+    <div id="enlaces">
+        <div id="opcion">
+            <a href="../index.html" onclick="alerta('la página de inicio')"><p class="enlace">Inicio</p></a>
+        </div>
+        <div id="opcion">
+            <a href="../documents/quiensoy_victoria.html" onclick="alerta('la página de Victoria Garza')"><p class="enlace">¿Quién soy? Victoria Garza</p></a>
+        </div>
+        <div id="opcion">
+            <a href="../documents/quiensoy_fernando.html" onclick="alerta('la página de Fernando Gómez')"><p class="enlace">¿Quién soy? Fernando Gómez</p></a>
+        </div>
+        <div id="opcion">
+            <a href="../documents/materias.html" onclick="alerta('la página de materias')"><p class="enlace">Materias</p></a>
+        </div>
+        <div id="opcion">
+            <a href="../documents/galeria_imagenes.html" onclick="alerta('la galería de imágenes')"><p class="enlace">Galería de imágenes</p></a>
+        </div>
+        <div id="opcion">
+            <a href="../documents/contactanos.html" onclick="alerta('la página de contacto')"><p class="enlace">Contáctanos</p></a>
+        </div>
+    </div>
+    <h1>Galería de Imágenes: Nuestros viajes</h1>
+    <p class="inicio">Hasta este momento, no hemos podido viajar juntos, pero hemos tenido la oportunidad de poder viajar a algunos lugares del mundo por nuestra cuenta.
+        Ésta es una pequeña galería con recuerdos de algunos de esos viajes.
+    </p>
+    <!-- La galería de imágenes se agrupa en 1 sección (div imagenes), compuesta de 2 tablas, una para Fernando y otra para Victoria. -->
+    <!-- Cada imagen tiene un botón de descarga, que se invoca al hacer click sobre el mismo. -->
+    <div id="imagenes">
+        <!-- Tabla con la galería de Fernando. -->
+        <div id="galeria_fernando">
+            <table>
+                <!-- Primer fila. -->
+                <tr>
+                    <th colspan="2"> <!-- El atributo colspan permite combinar las columnas de una fila. -->
+                        <h2>Galería de Fernando</h2>
+                    </th>
+                </tr>
+                <!-- Seguna fila. -->
+                <tr>
+                    <td>
+                        <div id="imagen_izq">
+                            <a href="../images/galeria_fernando_01.jpg">
+                                <img class="vertical" src="../images/galeria_fernando_01.jpg" alt="Fernando en Manchester" />
+                            </a>
+                            <p class="inicio">Manchester</p>
+                            <button class="descarga" type="button" onclick="descarga('../images/galeria_fernando_01.jpg')">Descarga</button>
+                        </div>
+                    </td>
+                    <td>
+                        <div id="imagen_der">
+                            <a href="../images/galeria_fernando_02.jpg">
+                                <img class="horizontal" src="../images/galeria_fernando_02.jpg" alt="Fernando en Berlín" />
+                            </a>
+                            <p class="inicio">Berlín</p>
+                            <button class="descarga" type="button" onclick="descarga('../images/galeria_fernando_02.jpg')">Descarga</button>
+                        </div>
+                    </td>
+                </tr>
+                <!-- Tercera fila. -->
+                <tr>
+                    <td>
+                        <div id="imagen_izq">
+                            <a href="../images/galeria_fernando_03.jpg">
+                                <img class="vertical" src="../images/galeria_fernando_03.jpg" alt="Fernando en Berlín" />
+                            </a>
+                            <p class="inicio">Berlín</p>
+                            <button class="descarga" type="button" onclick="descarga('../images/galeria_fernando_03.jpg')">Descarga</button>
+                        </div>
+                    </td>
+                    <td>
+                        <div id="imagen_der">
+                            <a href="../images/galeria_fernando_04.jpg">
+                                <img class="vertical" src="../images/galeria_fernando_04.jpg" alt="Fernando en Sevilla" />
+                            </a>
+                            <p class="inicio">Sevilla</p>
+                            <button class="descarga" type="button" onclick="descarga('../images/galeria_fernando_04.jpg')">Descarga</button>
+                        </div>
+                    </td>
+                </tr>
+                <!-- Cuarta fila. -->
+                <tr>
+                    <td>
+                        <div id="imagen_izq">
+                            <a href="../images/galeria_fernando_05.jpg">
+                                <img class="vertical" src="../images/galeria_fernando_05.jpg" alt="Fernando en París" />
+                            </a>
+                            <p class="inicio">París</p>
+                            <button class="descarga" type="button" onclick="descarga('../images/galeria_fernando_05.jpg')">Descarga</button>
+                        </div>
+                    </td>
+                    <td>
+                        <div id="imagen_der">
+                            <a href="../images/galeria_fernando_06.jpg">
+                                <img class="horizontal" src="../images/galeria_fernando_06.jpg" alt="Fernando en Madrid" />
+                            </a>
+                            <p class="inicio">Madrid</p>
+                            <button class="descarga" type="button" onclick="descarga('../images/galeria_fernando_06.jpg')">Descarga</button>
+                        </div>
+                    </td>
+                </tr>
+                <!-- Quinta fila. -->
+                <tr>
+                    <td colspan="2">
+                        <a href="../images/galeria_fernando_07.jpg">
+                            <img class="central horizontal" src="../images/galeria_fernando_07.jpg" alt="Fernando en Ciudad de México" />
+                        </a>
+                        <p class="inicio">Ciudad de México</p>
+                        <button class="descarga central" type="button" onclick="descarga('../images/galeria_fernando_07.jpg')">Descarga</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <!-- Tabla con la galería de Victoria. -->
+        <div id="galeria_victoria">
+            <table>
+                <!-- Primera fila. -->
+                <tr>
+                    <th colspan="2">
+                        <h2>Galería de Victoria</h2>
+                    </th>
+                </tr>
+                <!-- Segunda fila. -->
+                <tr>
+                    <td>
+                        <div id="imagen_izq">
+                            <a href="../images/galeria_victoria_01.jpg">
+                                <img class="horizontal" src="../images/galeria_victoria_01.jpg" alt="Victoria en Tokio" />
+                            </a>
+                            <p class="inicio">Tokio</p>
+                            <button class="descarga" type="button" onclick="descarga('../images/galeria_victoria_01.jpg')">Descarga</button>
+                        </div>
+                    </td>
+                    <td>
+                        <div id="imagen_der">
+                            <a href="../images/galeria_victoria_02.jpg">
+                                <img class="horizontal" src="../images/galeria_victoria_02.jpg" alt="Victoria en Tokio" />
+                            </a>
+                            <p class="inicio">Tokio</p>
+                            <button class="descarga" type="button" onclick="descarga('../images/galeria_victoria_02.jpg')">Descarga</button>
+                        </div>
+                    </td>
+                </tr>
+                <!-- Tercera fila. -->
+                <tr>
+                    <td>
+                        <div id="imagen_izq">
+                            <a href="../images/galeria_victoria_03.jpg">
+                                <img class="horizontal" src="../images/galeria_victoria_03.jpg" alt="Victoria en Tokio" />
+                            </a>
+                            <p class="inicio">Tokio</p>
+                            <button class="descarga" type="button" onclick="descarga('../images/galeria_victoria_03.jpg')">Descarga</button>
+                        </div>
+                    </td>
+                    <td>
+                        <div id="imagenes_der">
+                            <a href="../images/galeria_victoria_04.jpg">
+                                <img class="horizontal" src="../images/galeria_victoria_04.jpg" alt="Victoria en Roma" />
+                            </a>
+                            <p class="inicio">Roma</p>
+                            <button class="descarga" type="button" onclick="descarga('../images/galeria_victoria_04.jpg')">Descarga</button>
+                        </div>
+                    </td>
+                </tr>
+                <!-- Cuarta fila. -->
+                <tr>
+                    <td>
+                        <div id="imagen_izq">
+                            <a href="../images/galeria_victoria_05.jpg">
+                                <img class="horizontal" src="../images/galeria_victoria_05.jpg" alt="Victoria en Venecia" />
+                            </a>
+                            <p class="inicio">Venecia</p>
+                            <button class="descarga" type="button" onclick="descarga('../images/galeria_victoria_05.jpg')">Descarga</button>
+                        </div>
+                    </td>
+                    <td>
+                        <div id="imagen_der">
+                            <a href="../images/galeria_victoria_06.jpg">
+                                <img class="vertical" src="../images/galeria_victoria_06.jpg" alt="Victoria en París" />
+                            </a>
+                            <p class="inicio">París</p>
+                            <button class="descarga" type="button" onclick="descarga('../images/galeria_victoria_06.jpg')">Descarga</button>
+                        </div>
+                    </td>
+                </tr>
+                <!-- Quinta fila. -->
+                <tr>
+                    <td colspan="2">
+                        <a href="../images/galeria_victoria_07.jpg">
+                            <img class="central horizontal" src="../images/galeria_victoria_07.jpg" alt="Victoria en Tokio" />
+                        </a>
+                        <p class="inicio">Tokio</p>
+                        <button class="descarga central" type="button" onclick="descarga('../images/galeria_victoria_07.jpg')">Descarga</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

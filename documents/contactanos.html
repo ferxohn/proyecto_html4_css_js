@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="description" content="Esta es una pagina sobre como contactarnos">
+    <meta name="keyword" content="Facebook, correo, matricula, contactanos, escuela">
+    <meta name="author" content="Fernando Gomez Perera, Victoria Andrea Garza Romero">
+    <title>Contáctanos</title>
+    <script src="../js/metodos.js"></script> <!-- Se enlaza el archivo js con métodos de Javascript. -->
+    <link type="text/css" rel="stylesheet" href="../styles/estilos_contactanos.css" /> <!-- Se enlaza el archivo css de estilos. -->
+</head>
+<body>
+    <!-- Área de encabezado de enlaces. -->
+    <div id="enlaces">
+        <div id="opcion">
+            <a href="../index.html" onclick="alerta('la página de inicio')"><p class="enlace">Inicio</p></a>
+        </div>
+        <div id="opcion">
+            <a href="../documents/quiensoy_victoria.html" onclick="alerta('la página de Victoria Garza')"><p class="enlace">¿Quién soy? Victoria Garza</p></a>
+        </div>
+        <div id="opcion">
+            <a href="../documents/quiensoy_fernando.html" onclick="alerta('la página de Fernando Gómez')"><p class="enlace">¿Quién soy? Fernando Gómez</p></a>
+        </div>
+        <div id="opcion">
+            <a href="../documents/materias.html" onclick="alerta('la página de materias')"><p class="enlace">Materias</p></a>
+        </div>
+        <div id="opcion">
+            <a href="../documents/galeria_imagenes.html" onclick="alerta('la galería de imágenes')"><p class="enlace">Galería de imágenes</p></a>
+        </div>
+        <div id="opcion">
+            <a href="../documents/contactanos.html" onclick="alerta('la página de contacto')"><p class="enlace">Contáctanos</p></a>
+        </div>
+    </div>
+    <h1>Contáctanos</h1>
+    <!-- Área de nuestra información. -->
+    <div id="texto">
+        <div id="cuadro_texto_top">
+            <h2>Fernando Gómez Perera</h2>
+            <p class="inicio">Correo y matrícula</p>
+            <p class="inicio">Correo: 160300129@ucaribe.edu.mx</p>
+            <p class="inicio">Matrícula: 160300129</p>
+            <button class="facebook" type="button" onclick="confirmar('https://www.facebook.com/fernandoh.gomez')">Facebook</button>
+        </div>
+        <div id="cuadro_texto_top">
+            <img src="../images/contactanos.jpg" alt="Nuestros amigos">
+        </div>
+        <div id="cuadro_texto_top">
+            <h2>Victoria Andrea Garza Romero</h2>
+            <p class="inicio">Correo y matrícula</p>
+            <p class="inicio">Correo: 160300110@ucaribe.edu.mx</p>
+            <p class="inicio">Matrícula: 160300110</p>
+            <button class="facebook" type="button" onclick="confirmar('https://www.facebook.com/victoriaandrea.garzaromero')">Facebook</button>
+        </div>
+    </div>
+    <!-- Área del mapa y formulario. -->
+    <div id="texto">
+        <div id="cuadro_texto_bottom">
+            <h2>Nuestra escuela</h2>
+            <div id="mapa">
+                <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3719.767921470378!2d-86.82610954937404!3d21.20137638716943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4c2c298cab405b%3A0xc7ce34485e9b3b8!2sUniversidad+del+Caribe!5e0!3m2!1ses!2smx!4v1518285646886" 
+                allowfullscreen></iframe>
+            </div>
+            <p class="inicio">Página de la escuela: <a href="http://unicaribe.mx/" onclick="alerta('la página de la Universidad del Caribe')">Universidad del Caribe</a></p>
+        </div>
+        <div id="cuadro_texto_bottom">
+            <h2>Déjanos tu opinión</h2>
+            <form name="Formulario" method="post"> <!-- Se usa el método POST para enviar información del cliente al servidor. -->
+                <p>
+                    <label for="nombre">Tu Nombre:</label>
+                    <input type="text" class="nombre" placeholder="Ingresa tu nombre" name="nombre" required>
+                </p>
+                <p>
+                    <label for="correo">Tu Correo:</label>
+                    <input type="text" class="correo" placeholder="Ingresa tu correo" name="correo" required>
+                </p>
+                <p>
+                    <label for="motivo">¿Cómo encontraste esta página?</label>
+                    <select name="motivo">
+                        <option value="casualidad">Por casualidad</option>
+                        <option value="google">Por el buscador Google</option>
+                        <option value="bing">Por el buscador Bing</option>
+                        <option value="recomendacion">Por recomendación</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="opinion">Tus comentarios:<br></label>
+                    <textarea name="opinion" id="comentarios" placeholder="Ingresa tus comentarios" required></textarea>
+                </p>
+                <input type="submit" onclick="formulario(nombre, correo, opinion)" value="Enviar">
+                <input type="reset" name="Borrar">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
